@@ -18,3 +18,12 @@ A compilation of social media posts, tweets, and text interactions inclusive of 
 1. Clone the repository
 2. cd into the directory
 3. Run jupyter notebook or use google colab
+
+## INFERENCES MADE
+After plotting the polarity of the various social media tweets and posts, we arrived at a conclusion that on the 15th day of January, 2023 in the United States of America, United Kingdom, and Australia, a large majority of individuals were calm and neutral. Based on the dataset, we can deduce that these sampled individuals did not encounter any form of negativity which postulates that they did not experience occurences like Natural disasters, wars, hunger, etc.  The same can be said about a non-existent cause for celebration or high positivity or excitement.
+
+To back the above claim based on the analysis of sentiments in the dataset provided, we plotted a scatter plot of the polarities (positive-neutral-negative bias) against the subjectivity (the balance between the objectivity and subjectivity of each statement) of the tweets, posts, and conversations made on social at that specific timeline.
+
+Looking at the scatter plot visualized, the closer a statement is plotted to 1 on the polarity scale (xLabel), the more positive it is. The closer it is to 0, the more neutral, and the closer it is to -1, the more negative.
+
+On the subjectivity scale (yLabel), the closer a statement is to 0, the more objective (governed by logic) it is, and the closer the statement is to 1, the more subjective (governed by a degree of emotion) it is.
